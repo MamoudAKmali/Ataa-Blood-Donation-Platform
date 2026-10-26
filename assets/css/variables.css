@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Variables - Design System
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Tajawal:wght@500;700&display=swap');
+
+:root {
+    /* Primary Colors (Elegant Blood Red Theme) */
+    --primary: #b52619;
+    --primary-light: #ff5449;
+    --primary-dark: #8b0000;
+    --primary-bg: #ffebe9;
+
+    /* Secondary Colors */
+    --secondary: #5d5e66;
+    --secondary-bg: #f3f3f4;
+
+    /* Semantic Colors */
+    --error: #ba1a1a;
+    --error-bg: #ffdad6;
+    --success: #2e7d32;
+    --success-bg: #e8f5e9;
+    --warning: #f57f17;
+    --warning-bg: #fff3e0;
+
+    /* Surface & Background */
+    --bg-main: #f9f9f9;
+    --surface: #ffffff;
+    --surface-hover: #f3f4f6;
+    --border: #e2e2e2;
+
+    /* Text Colors */
+    --text-primary: #1a1c1c;
+    --text-secondary: #5a5d66;
+    --text-muted: #8e9099;
+    --text-on-primary: #ffffff;
+
+    /* Typography */
+    --font-heading: 'Tajawal', sans-serif;
+    --font-body: 'Cairo', sans-serif;
+
+    /* Spacing & Layout */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 10px 20px rgba(181, 38, 25, 0.05);
+    --shadow-lg: 0 30px 60px -15px rgba(139, 0, 0, 0.08);
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease-in-out;
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

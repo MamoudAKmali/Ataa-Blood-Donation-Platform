@@ -1,0 +1,32 @@
+# ===== Sensitive Files =====
+# (أنشئ نسخة من هذا الملف بكلمات المرور الحقيقية محلياً فقط)
+# includes/db_connect.php
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE & Editor Files =====
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# ===== PHP Cache =====
+*.cache
+/vendor/
+
+# ===== Logs =====
+*.log
+error_log
+
+# ===== Temporary Files =====
+*.tmp
+*.bak
+*.orig
+
+# ===== Uploads (optional - uncomment if you don't want to track uploads) =====
+# assets/uploads/
